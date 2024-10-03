@@ -1,0 +1,58 @@
+.body{
+    height: 100vh;
+    display: block;
+    width: 100dvw;
+    justify-content: center;
+    background-color: aquamarine;
+    transition: 1s ease;
+
+
+}
+.greet{
+    height: 20px;
+    color: white;
+    position: relative;
+    font-weight: bolder;
+    font-size: x-large;
+    width: 470px;
+    left: 40rem;
+    text-align: center;
+    display: none;
+}
+
+    
+
+.greet2{
+    height: 20px;
+    color: black;
+    position: relative;
+    font-weight: bolder;
+    font-size: x-large;
+    width: 470px;
+    left: 40rem;
+    text-align: center;
+    display: none;
+}
+.header{
+    height: 5vh;
+    justify-content: end;
+    display: flex;
+    margin: 3rem;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.timer h1{
+    font-size: 200px;
+}
+.sun{
+    background-color: blue;
+    color: azure;
+}
+.moon{
+    background-color: azure;
+    color: blue;
+}
